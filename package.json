@@ -34,7 +34,7 @@
     "form",
     "multistep",
     "navigation",
-    "ui",
+    "ui"
   ],
   "files": [
     "dist",
