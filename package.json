@@ -2,7 +2,7 @@
   "name": "@zener/react-multistep",
   "author": "Bikash Ojha",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "The React MultiStep is a minimal multi step navigation component for reactjs.",
   "private": false,
   "types": "./dist/@types/index.d.ts",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opensource-hq/react-select.git"
+    "url": "git+https://github.com/tulsiojha/react-multistep.git"
   },
   "keywords": [
     "react",
@@ -51,7 +51,8 @@
     "clean": "rimraf dist",
     "dev:build": "npm run build",
     "tsc": "tsc --emitDeclarationOnly -p tsconfig-compile.json --outDir ./dist/@types",
-    "build:css": "tailwindcss -i ./src/scss/build.scss -o ./src/css/index.scss"
+    "build:css": "tailwindcss -i ./src/scss/build.scss -o ./src/css/index.scss",
+    "release": "pnpm build && npm publish"
   },
   "peerDependencies": {
     "react": "^18.2.0 || ^17.0.0 || ^16.0.0"
@@ -95,6 +96,6 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/opensource-hq/react-select/issues"
+    "url": "https://github.com/tulsiojha/react-multistep/issues"
   }
 }

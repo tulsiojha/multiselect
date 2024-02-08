@@ -4,6 +4,7 @@
 import ReactDOM from 'react-dom/client';
 import { useState } from 'react';
 import MultiStep, { useMultiStep } from './multistep';
+import './css/index.scss';
 
 const textInputCss =
   'zener-p-2 zener-outline-none zener-border-none !zener-border-solid zener-border-gray-700 zener-border-2 zener-ring-gray-500 focus:zener-ring-2';

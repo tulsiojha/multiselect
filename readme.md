@@ -12,7 +12,7 @@ The React MultiStep is a minimal multi step navigation component for reactjs.
 
 ## Installation
 
-You can install the React MultiStep component via [npm](https://www.npmjs.com/):
+You can install the React MultiStep component via [npm](https://www.npmjs.com/package/@zener/react-multistep/):
 
 ```bash
 npm i @zener/react-multistep
@@ -23,7 +23,6 @@ npm i @zener/react-multistep
 
 ```jsx
 import MultiStep, { useMultiStep } from '@zener/react-multistep';
-import '@zener/react-multistep/index.css';
 
 const Basic = () => {
   const { next, previous, currentStep } = useMultiStep({

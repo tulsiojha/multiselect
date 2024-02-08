@@ -1,5 +1,4 @@
 import React, { ReactElement, ReactNode, useState } from 'react';
-import '../css/index.scss';
 
 interface IUseMultiStep {
   defaultStep: number;
